@@ -135,5 +135,26 @@
 # var_4="code"
 # print(var_3+var_4)
 
+
+# input_1=input("enter the number:")
+# print(input_1, "the type is", type(input_1))
+
+# -----------------------------<THE IF-ELSE-ELSIF STATEMENTS>----------------------------
+pot_price = 3400
+saucepan_price = 5000
+if pot_price == saucepan_price:
+    print("Price for both items is same!")
+elif pot_price < saucepan_price:
+    print("pot price is lesser!")
+elif pot_price > saucepan_price:
+    print("pot price is greater!")
+else:
+    print("Not Decided Yet :)")
+
+#<INTERGRATING THE INPUT FOR MORE COMPLEX IF-ELSE STATEMENTS>
+
+input_price = int(input)
+
+
 # -----------------------------<PYTHON BEGINNER PROJECTS>----------------------------
 
