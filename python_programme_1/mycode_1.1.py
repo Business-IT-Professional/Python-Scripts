@@ -131,3 +131,9 @@
 # print(var_3, type(var_3))
 
 
+# var_3="script"
+# var_4="code"
+# print(var_3+var_4)
+
+# -----------------------------<PYTHON BEGINNER PROJECTS>----------------------------
+
