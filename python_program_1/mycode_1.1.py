@@ -16,17 +16,17 @@
 # to larger or smaller data types)
 
 
-# a=45
-# print(float(45))
-# print(int(45+2))
-# print(str("45+45"))
+a=45
+print(float(45))
+print(int(45+2))
+print(str("45+45"))
 
 #Example:
 #Widening / narrowing (often used when describing conversions
 # to larger or smaller data types)
 
-# int_a = 4
-# print(float(4)) # the conversion from larger smaller data type into the larger datatype
+int_a = 4
+print(float(4)) # the conversion from larger smaller data type into the larger datatype
 
 
 
@@ -41,103 +41,103 @@
 
 
 # -----------------------------<PRINTING DATA-TYPE NAMES>-----------------------
-# print(type(3))
-# print(type("string"))
-# print(type(3.5))
-# print(type(True))
+print(type(3))
+print(type("string"))
+print(type(3.5))
+print(type(True))
 
 # -----------------------------<GETTING USER INPUTS>----------------------------
 
 
-# input_1 = input("enter your name: ")
-# print(input_1, "is a good person")
+input_1 = input("enter your name: ")
+print(input_1, "is a good person")
 
-# input_2 = input("your age: ")
-# name = "Muhammad Ali"
-# print(name, "is", input_2)
+input_2 = input("your age: ")
+name = "Muhammad Ali"
+print(name, "is", input_2)
 
-# print(name, "is a good person")
+print(name, "is a good person")
 
 # -----------------------------<CONDITIONAL LOGIC>----------------------------
 
 
-# print(3<4)
-# print(4>=3)
-# print(3!=9)
-# print(4!=2**2)
-# print(3==3)
+print(3<4)
+print(4>=3)
+print(3!=9)
+print(4!=2**2)
+print(3==3)
 
 # -----------------------------<CONDITIONAL LOGIC USER INPUTS>----------------------------
-# a=5
-# while a>0:
+a=5
+while a>0:
 
-#     name_1=input("enter the name:")
-#     name_2 = input("enter your name:")
-#     print(name_1==name_2)
-#     a=a-1
-# print("Done!")
-
-
-
-# num_a = 3
-# num_b = 4
-# print(num_a == num_b)
+    name_1=input("enter the name:")
+    name_2 = input("enter your name:")
+    print(name_1==name_2)
+    a=a-1
+print("Done!")
 
 
 
-# input_a=input("enter your age:")
-# num_b = 6
-# input_a=int(input_a) #----Type conversion in different line of code
-# print(num_b==input_a)
-# print(type(input_a))
+num_a = 3
+num_b = 4
+print(num_a == num_b)
 
 
-# input_a=int(input("enter your age:")) #-----Type conversion in the same line of code
-# num_b = 56
-# print(num_b==input_a)
-# print(type(input_a))
+
+input_a=input("enter your age:")
+num_b = 6
+input_a=int(input_a) #----Type conversion in different line of code
+print(num_b==input_a)
+print(type(input_a))
 
 
-# input_1= float(input("enter the number:"))
+input_a=int(input("enter your age:")) #-----Type conversion in the same line of code
+num_b = 56
+print(num_b==input_a)
+print(type(input_a))
 
-# print(input_1, "the type is:", type(input_1))
+
+input_1= float(input("enter the number:"))
+
+print(input_1, "the type is:", type(input_1))
 
 
 # -----------------------------<EXPLICIT CONVERSION>----------------------------
-# num=1
-# num1=2
-# num=int(num)
-# print(num)
+num=1
+num1=2
+num=int(num)
+print(num)
 
 
-# var_2=int(input("enter the content:"))
-# print(type(var_2))
+var_2=int(input("enter the content:"))
+print(type(var_2))
 
-# var_2=input("enter the content:")
-# var_2=float(var_2)
-# print(type34(var_2))
+var_2=input("enter the content:")
+var_2=float(var_2)
+print(type(var_2))
 
 # -----------------------------<IMPLICIT CONVERSION>----------------------------
-# var_1=23
-# var_2=4
+var_1=23
+var_2=4
 
-# var_3=var_1*var_2
-# print(var_3, type(var_3))
-
-
-# var_1=4.5
-# var_2=3
-# var_3=var_1+var_2
-# print(var_3, type(var_3))
+var_3=var_1*var_2
+print(var_3, type(var_3))
 
 
-# var_3="script"
-# var_4="code"
-# print(var_3+var_4)
+var_1=4.5
+var_2=3
+var_3=var_1+var_2
+print(var_3, type(var_3))
 
 
-# input_1=input("enter the number:")
-# print(input_1, "the type is", type(input_1))
+var_3="script"
+var_4="code"
+print(var_3+var_4)
+
+
+input_1=input("enter the number:")
+print(input_1, "the type is", type(input_1))
 
 # -----------------------------<THE IF-ELSE-ELSIF STATEMENTS>----------------------------
 pot_price = 3400
@@ -153,8 +153,15 @@ else:
 
 #<INTERGRATING THE INPUT FOR MORE COMPLEX IF-ELSE STATEMENTS>
 
-input_price = int(input)
+item_1 = int(input("enter the price for pot: "))
+item_2 = int(input("enter the price for saucepan: "))
 
+if item_1 == item_2:
+    print("prices are same!")
+elif item_1 < item_2:
+    print("pot is cheaper than saucepan!")
+elif item_1 > item_2:
+    print("pot is expansive than saucepan!")
 
 # -----------------------------<PYTHON BEGINNER PROJECTS>----------------------------
 
