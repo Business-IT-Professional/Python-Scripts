@@ -163,5 +163,5 @@ elif item_1 < item_2:
 elif item_1 > item_2:
     print("pot is expansive than saucepan!")
 
-# -----------------------------<PYTHON BEGINNER PROJECTS>----------------------------
+
 
